@@ -2,7 +2,7 @@
 
 ## Hardware
 ### Printed Circuit Board 
-I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. Feel free to order some for you. 
+I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. They come in lots of three and cost 9$. Feel free to order some for you. 
 
 OSH Park [Boron-ublox-FW-Programmer](https://oshpark.com/shared_projects/7IBDIvOl).
 
@@ -22,6 +22,18 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 
 ## Building the Firmware Programmer
 
+1. Solder the USB jack or the USB cable to the PCB (I recommend fixing the USB cable to the PCB with a zip tie as shown above). 
+2. Solder the female headers to the PCB. 
+3. Soldering the pogo pins requires a simple trick, which helps to align them precisely and gives them enough contact pressure. 
+	1. Build a sandwich of the programmer, an empty PCB and a Boron as shown below. 
+	2. Put the pogo pins through the pads and check that they hit the center of the test points. 
+	3. Solder the pogo pins without applying additional pressure to the pins.
+	
+	<img src="Hardware/Doc/Images/Boron_FW_Progr_04.JPG" title="Programmer with USB jack" width="400" /> <br> Programmer with emtpy PCB used for pogo pin alignment | 
+|:---:|:---:| 
 
+4. Remove the empty PCB you used for alignment and spacing.
+5. Check the correct alignment and contact pressure of the pogo pins by mounting the Boron directly on the programmer.
 
+**Congratulations you successfully built the Boron ublox SARA-R4 Firmware Programmer!**
 
