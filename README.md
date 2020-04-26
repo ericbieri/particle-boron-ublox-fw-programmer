@@ -29,11 +29,9 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 	2. Put the pogo pins through the pads and check that they hit the center of the test points. 
 	3. Solder the pogo pins without applying additional pressure to the pins.
 	
-	![Programmer with USB jack](Hardware/Doc/Images/Boron_FW_Progr_04.JPG=400x200) Programmer with USB jack | 
+	![Programmer with USB jack](Hardware/Doc/Images/Boron_FW_Progr_04.JPG) Programmer with USB jack | 
 	|:---:|:---:| 
 	
-
-
 4. Remove the empty PCB you used for alignment and spacing.
 5. Check the correct alignment and contact pressure of the pogo pins by mounting the Boron directly on the programmer.
 
