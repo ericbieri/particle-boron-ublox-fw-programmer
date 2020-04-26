@@ -2,8 +2,7 @@
 
 ## Hardware
 ### Printed Circuit Board 
-I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. They come in lots of three and cost 9$ only. 
-
+I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. 
 OSH Park [Boron-ublox-FW-Programmer](https://oshpark.com/shared_projects/7IBDIvOl).
 
 The programmer can be built with either USB jack or USB cable, depending on which fits best your needs. For the version with USB cable I used one of the USB cables that Particle supplied with their development kits. I recommend to use a hot air gun to solder the USB jack.
@@ -25,7 +24,7 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 1. Solder the USB jack or the USB cable to the PCB (I recommend fixing the USB cable to the PCB with a zip tie as shown above). 
 2. Solder the female headers to the PCB. 
 3. Soldering the pogo pins requires a simple trick, which helps to align them precisely and gives them enough contact pressure. 
-	1. Build a sandwich of the programmer, an empty programmer PCB and a Boron as shown below. 
+	1. Build a sandwich of the programmer, an empty programmer PCB and a Boron as shown below.
 	2. Put the pogo pins through the pads and check that they hit the center of the test points. 
 	3. Solder the pogo pins without applying additional pressure to the pins.
 	
