@@ -26,11 +26,11 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 3. Soldering the pogo pins requires a simple trick, which helps to align them precisely and ensures a sufficient contact force. 
 	1. Build a sandwich of the programmer, an empty programmer PCB and a Boron as shown below.
 	2. Put the pogo pins through the pads from the bottom and check that they are well alinged with the test points. 
-	3. Solder the pogo pins without applying additional pressure to the pins.
+	3. Solder the pogo pins without applying force to the pins.
 	
 	<img src="Hardware/Doc/Images/Boron_FW_Progr_04.JPG" width="50%">
 	
-4. Remove the empty PCB you used for alignment and spacing.
+4. Remove the empty PCB used for alignment and spacing.
 5. Check the correct alignment and contact force of the pogo pins by mounting the Boron directly on the programmer.
 
 **Congratulations you successfully built the Boron ublox SARA-R4 Firmware Programmer!**
