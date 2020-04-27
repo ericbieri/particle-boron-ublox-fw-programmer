@@ -31,7 +31,7 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 	<img src="Hardware/Doc/Images/Boron_FW_Progr_04.JPG" width="50%">
 	
 4. Remove the empty PCB used for alignment and spacing.
-5. Check the correct alignment and contact force of the pogo pins by mounting the Boron directly on the programmer.
+5. Check the correct alignment and contact force of the pogo pins by mounting the Boron directly on to the programmer.
 
 **Congratulations you successfully built the Boron ublox SARA-R4 Firmware Programmer!**
 
