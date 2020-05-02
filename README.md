@@ -24,9 +24,9 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 
 | No. | Qty. | Mouser Part No.                                                                | Description                              |
 | --: | ----:| ------------------------------------------------------------------------------:| ----------------------------------------:|
-| 1.  |    1 | [485-2886](https://www.mouser.ch/ProductDetail/Adafruit/2886)                  | Feather - 12 / 16-pin Female Header Set  |
+| 1.  |    1 | [485-2886](https://www.mouser.ch/ProductDetail/Adafruit/2886)                  | Feather 12 / 16-Pin Female Header Set  |
 | 2.  |    1 | [485-2430](https://www.mouser.ch/ProductDetail/Adafruit/2430)                  | Pogo Pins Needle Head (10 pack) - P75-B1 |
-| 3.  |    1 | [490-UJ2-MIBH2-4-SMT](https://www.mouser.ch/ProductDetail/490-UJ2-MIBH2-4-SMT) | USB Connectors USB 2.0 micro B jack      |
+| 3.  |    1 | [490-UJ2-MIBH2-4-SMT](https://www.mouser.ch/ProductDetail/490-UJ2-MIBH2-4-SMT) | USB Connectors USB 2.0 Micro B Jack      |
 
 ## Building the Firmware Programmer
 
