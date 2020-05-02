@@ -60,8 +60,9 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 
 ### Updating the modem firmware
 1. Follow this guide (EasyFlash see chapter 8) to install the ublox SARA-R4 Firmware [Firmware update with uFOTA, FOAT and EasyFlash](https://www.u-blox.com/sites/default/files/SARA-R4-FW-Update_AppNote_%28UBX-17049154%29.pdf)
-2. Settings: Product: SARA-R4. Port: USB
-3. Flashing the modem takes approx. two minutes.
+2. IMPORTANT: Run EasyFlash as an administrator.
+3. Settings: Product: SARA-R4. Port: USB
+4. Flashing the modem takes approx. two minutes.
 
 <img src="Hardware/Doc/Images/EasyFlash_Success.png" width="50%">
 
