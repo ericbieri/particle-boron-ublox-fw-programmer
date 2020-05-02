@@ -69,12 +69,12 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 ***Congratulations you successfully updated the ublox SARA-R4 Firmware !***
 
 ## Connect to the ublox modem using m-center
-ublox provides a handy evaluation software, which lets you directly communicate with the ublox SARA-R4 modem (Serial over USB) using AT-Commands (other Terminal Software work too).
+ublox provides a handy evaluation software, which lets you directly communicate with the ublox SARA-R4 modem (Serial over USB) using AT-Commands (other terminal Software work too).
 
 1. Download and install the software. [ublox m-center](https://www.u-blox.com/en/product/m-center)
 2. Set the COM port, 115200, 8, N, 1 and hit connect.
 3. The modem information should be displayed in the bottom left. 
-4. Klick on the "AT Terminal" button (top right) to open up the Terminal window.
+4. Klick on the "AT Terminal" button (top right) to open up the terminal window.
 5. Try "ATI" to display the modem idenfication information
 
 The AT commands manual can be found here [SARA-R4 AT Commands Manual](https://www.u-blox.com/en/docs/UBX-17003787)
