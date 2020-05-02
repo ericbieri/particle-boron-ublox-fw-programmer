@@ -7,7 +7,7 @@ The latest firmware version (L0.0.00.00.05.08 / App version 02.04 [Mai 20 2019])
 The product change notes can be found here [SARA-R410M-02B-01 Product Change](https://www.u-blox.com/en/docs/UBX-19024506).
 Futher documentation & resouces can be found here [SARA-R4 Series Documenation & Resources](https://www.u-blox.com/en/product/sara-r4-series?lang=de#tab-documentation-resources).
 
-As far as I can see, the ublox firmware version L0.0.00.00.05.8 workes fine with the Boron firmware version 1.5.
+As far as I can see does the ublox firmware version L0.0.00.00.05.8 work just fine with the current firmware version 1.5 of the Boron.
 
 ## Printed Circuit Board 
 I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. 
