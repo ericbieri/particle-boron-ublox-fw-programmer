@@ -1,13 +1,12 @@
 # Particle Boron ublox SARA-R4 Firmware Programmer 
 
-I bought a few Borons over a year ago. The Boron firmware has been updated several times since then, but Particle has not yet delivered a firmware update for the ublox SARA-R4 modem (firmware L0.0.00.00.05.06 [Feb 03 2018]).
+Back in 2018, I bought a few Borons from Particle. The Boron firmware has been updated several times since then, but Particle has not yet delivered a firmware update for the ublox SARA-R410 modem (firmware L0.0.00.00.05.06 [Feb 03 2018]).
 
-The latest firmware version (L0.0.00.00.05.08 / App version 02.04 [Mai 20 2019]) contains many improvements, such as new MNO profiles and many more. I wanted to try out the new features and therefore created this firmware programmer.
+The latest firmware version from u-blox can be downloaded here: 
+[SARA-R4 / Documentation & resources -> Firmware Update -> SARA-R410M-02B-0x IP FW package](https://www.u-blox.com/en/product/sara-r4-series?legacy=Current#Documentation-&-resources)
 
-The product change notes can be found here [SARA-R410M-02B-01 Product Change](https://www.u-blox.com/en/docs/UBX-19024506).
-Futher documentation & resouces can be found here [SARA-R4 Series Documenation & Resources](https://www.u-blox.com/en/product/sara-r4-series?lang=de#tab-documentation-resources).
+Latest Version (21st April 2022): SARA-R410M-02B-04: Modem: L0.0.00.00.05.12 / Application: A.02.21
 
-As far as I can see does the ublox firmware version L0.0.00.00.05.8 work just fine with the current firmware version 1.5 of the Boron.
 
 ## Printed Circuit Board 
 I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. 
