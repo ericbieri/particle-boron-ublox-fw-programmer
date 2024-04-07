@@ -5,7 +5,7 @@ Back in 2018, I bought a few Borons from Particle. The Boron firmware has been u
 The latest firmware version from u-blox can be downloaded here: 
 [SARA-R4 / Documentation & resources](https://www.u-blox.com/en/product/sara-r4-series?legacy=Current#Documentation-&-resources) -> Firmware Update -> SARA-R410M-02B-0x IP FW package
 
-Latest Version (as of 21st April 2022): SARA-R410M-02B-04: Modem: L0.0.00.00.05.12 / Application: A.02.21
+Latest firmware version (as of 21st April 2022): SARA-R410M-02B-04: Modem: L0.0.00.00.05.12 / Application: A.02.21
 
 ## Printed Circuit Board 
 I'm sharing the PCB design on  OSH Park. OSH Park produces high quality PCBs for little money. 
@@ -34,6 +34,7 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 	1. Build a sandwich of the programmer, an empty programmer PCB and a Boron as shown below.
 	2. Put the pogo pins through the pads from the bottom and check that they are well alinged with the test points. 
 	3. Solder the pogo pins without applying force to the pins.
+   
 	
 	<img src="Hardware/Doc/Images/Boron_FW_Progr_04.JPG" width="50%">
 	
@@ -48,7 +49,7 @@ The programmer can be built with either USB jack or USB cable, depending on whic
 	1. Put your device into DFU mode (blinking yellow). Instructions see [Status LED - Boron](https://docs.particle.io/troubleshooting/led/boron/).
 	2. From a terminal window run the command `particle update` 
 
-2. ***Install USB Driver for Windows:*** Install the SARA-R4 Windows driver [SARA-R4 / Documentation & resources](https://www.u-blox.com/en/product/sara-r4-series?legacy=Current#Documentation-&-resources)  -> Driver -> ublox_R4_R6_L6_windows_3264_v2.0.0.0.zip
+2. ***Install the USB Driver for Windows:*** Install the SARA-R4 Windows driver [SARA-R4 / Documentation & resources](https://www.u-blox.com/en/product/sara-r4-series?legacy=Current#Documentation-&-resources)  -> Driver -> ublox_R4_R6_L6_windows_3264_v2.0.0.0.zip
 3. ***Check if Windows recognizes the programmer with Boron installed***: 
 	1. Remove all connections from the Boron, install it on the programmer and connect the programmer to your PC. This will power up your Boron.
 	2. Check in the Windows device manager if a new USB device "u-blox USB Composite Device 90B2" and new COM port "u-blox Modem USB0 Diagnostics Log" pop up.  
@@ -73,19 +74,21 @@ The programmer can be built with either USB jack or USB cable, depending on whic
    
 6. ***Download the latest Firmware for the u-blox SARA-R410M module***
     1. Download the latest Firmware from [SARA-R4 / Documentation & resources](https://www.u-blox.com/en/product/sara-r4-series?legacy=Current#Documentation-&-resources)  -> Firmware Update -> SARA-R410M-02B-04 IP FW package. Latest version released: *SARA-R410M-02B-04 IP FW package*, Release Date 29-Jun-2023 (Modem: L0.0.00.00.05.12, Application: A.02.21).
-    2. Unzip the firmware image (e.g. SARA-R410M-02B-04-P1-L0000000512A0221-000K00.dof) to the root directory of the EasyFlash tool. -> C:\Program Files (x86)\U-blox\EasyFlash_13.03.1.2. IMPORTANT: The firmware file has to be in the root of the EasyFlash tool. The feature *enable File browsing* (Menu: Tools/Enable file browser) did not work for me. -> The update process failed!
-	3. Read the Readme & firmware update notes.
+    2. Unzip the firmware image (e.g. SARA-R410M-02B-04-P1-L0000000512A0221-000K00.dof) to the root directory of the EasyFlash tool. -> C:\Program Files (x86)\U-blox\EasyFlash_13.03.1.2. 
+    3. IMPORTANT: The firmware file has to be in the root of the EasyFlash tool. The feature *enable File browsing* (Menu: Tools/Enable file browser) did not work for me. -> The update process failed!
+	4. Read the Readme & firmware update notes.
    
 	INFO: The first Borons were shipped with module type number SARA-R410M-02B-00 (Modem: L0.0.00.00.05.06, Application: A.02.00).
 
 
 ### Updating the modem firmware
-1. Follow this guide [Firmware update with uFOTA, FOAT and EasyFlash](https://www.u-blox.com/docs/UBX-17049154) (EasyFlash see chapter 8) to install the u-blox SARA-R4 Firmware.
+1. Follow this guide [Firmware update with uFOTA, FOAT and EasyFlash](https://www.u-blox.com/docs/UBX-17049154) (see chapter 8) to install the u-blox SARA-R4 Firmware.
 2. IMPORTANT: Run EasyFlash as an administrator!
-3. Settings: Product: SARA-R4, Port: USB, Baud rate: <empty>
-4. Flashing the modem takes approx. 2-3 minutes.
+3. Settings: Product: SARA-R4, Port: USB, Baud rate: -empty-
+4. Flashing the modem takes approx. 2-3 minutes. The module restarts several times in the process.
 
   <img src="Hardware/Doc/Images/EasyFlash_Success.png" width="50%">
+
 
 ***Congratulations you successfully updated the u-blox SARA-R4 Firmware !!!***
 
